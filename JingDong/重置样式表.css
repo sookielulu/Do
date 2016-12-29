@@ -1,0 +1,20 @@
+@charset "utf-8";
+/**CSS重置**/
+body, html, div, hr, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td, table, select, button, textarea{margin: 0; padding: 0; list-style: none;}
+img,fieldset{border:0;}
+/**设置图片最大宽度为100%以自适应**/
+img{max-width:100%; height:auto; width:auto\9;}
+/**设置html新标签为块级元素**/
+article, aside, details, fricaption, figure, footer, header, hgroup, menu, nav, section, form{display:block;}
+/*fix*/
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.clearfix { display:inline-block;}
+.clearfix { display:block; zoom:1;}
+.clear { line-height:0px; font-size:0px; height:0px; display:block; clear:both;}
+/**常规设置**/
+body{line-height: 1;font-size: 88% /* Decide for yourself if you want to include this. */;}
+h1, h2, h3, h4, h5, h6{font-size: 100%;padding: .6em 0;margin: 0 15px;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover
+{text-decoration: underline;}

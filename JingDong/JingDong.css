@@ -1,0 +1,829 @@
+a:hover{
+    text-decoration: none;
+    color: #b1191a;
+}
+.a-hover {
+    color: #b1191a!important;
+}
+i {
+    display: inline-block;
+    font: 400 12px/14px consolas;
+    height: 7px;
+    overflow: hidden;
+}
+s {
+    text-decoration: none;
+    position: relative;
+    top: -7px;
+}
+.a_change {
+    color: #B1191A;
+}
+.w{
+    width: 1213px;
+    margin: 0 auto;
+    /*position: relative;*/
+}
+.top-nav {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.send-city {
+    position: relative;
+}
+.send-city-first {
+    height: 31px;
+    padding: 0 20px 0 10px;
+    float: left;
+    font: 400 12px/28px "宋体";
+    color: #3e3e3e;
+    cursor: pointer;
+}
+.send-city .city {
+    position: relative;
+}
+.send-city-first i {
+    position: absolute;
+    top: 6px;
+    right: -8px;
+}
+.send-city i s{
+    position: relative;
+    top: -7px;
+}
+.send-city ul {
+    width: 290px;
+    height: 250px;
+    padding: 10px;
+    background-color: #fff;
+}
+.send-city ul li {
+    display: inline-block;
+}
+.send-city ul a {
+    display: block;
+    width: 40px;
+    height: 22px;
+    font: 400 13px/22px "宋体";
+    text-align: center;
+    margin: 0 5px 10px 8px;
+}
+.send-city .choose a {
+    background-color: #f1f1f1;
+    color: #B1191A;
+}
+.send-city .now-city a {
+    background-color: #c81623;
+    color: #ffffff;
+}
+.top-nav-right{
+    float: right;
+}
+.top-nav-right li{
+    float: left;
+    display: inline-block;
+}
+.top-nav-right li a{
+    color: #3e3e3e;
+    font: 100 12px/29px "宋体";
+    padding: 7px 7px;
+    /*background-color: #fff;*/
+}
+.top-nav-right .line {
+    width: 1px;
+    height: 12px;
+    background-color: #cccccc;
+    margin: 9px 1px;
+}
+
+/*有下拉菜单的设置统一样式*/
+.send-city-first,
+.top-nav-myjd-top,
+.top-nav-right-phone-top,
+.top-nav-right-focus-top,
+.top-nav-right-service-top,
+.top-nav-right-othersites-top {
+    position: relative;
+    box-sizing: border-box;
+    top: -1px;
+    border:1px solid #f1f1f1;
+    z-index: 30;
+}
+.send-city ul,
+.top-nav-myjd-dropdown,
+.top-nav-right-phone-dropdown,
+.top-nav-right-focus-dropdown,
+.top-nav-right-service-dropdown,
+.top-nav-right-othersites-dropdown {
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 29px;
+    z-index: 20;
+    display: none;
+}
+
+/*登录、注册*/
+.top-nav-right .top-nav-login {
+    font-weight: 400;
+    font-family: "Microsoft Yahei";
+}
+.top-nav-right .top-nav-regist {
+    color: #B1191A;
+}
+
+/*我的京东二级菜单*/
+.top-nav-myjd-dropdown {
+    width: 280px;
+    height: 195px;
+    background-color: #fff;
+}
+.top-nav-myjd-dropdown-top-left {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: url("image/daohang--wodejingdong_.jpg") no-repeat;
+    margin: 20px 0 0 30px;
+    float: left;
+}
+.top-nav-myjd-dropdown-top-right {
+    width: 180px;
+    padding-top: 14px;
+    float: right;
+}
+.top-nav-myjd-dropdown-bottom a{
+    display: inline-block;
+    width: 90px;
+    height: 0;
+    margin: -5px 0 0 20px;
+}
+
+/*手机京东二级菜单*/
+.top-nav-right-phone {
+    display: inline-block;
+    position: relative;
+    padding: 0 5px;
+}
+.top-nav-right-phone-top {
+    height: 31px;
+}
+.top-nav-right-phone-top .img{
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background: url("image/daohang--shoujijingdong01.png") no-repeat top left;
+    margin-top: 5px;
+}
+.top-nav-right-shoujijingdong {
+    position: relative;
+    top: -6px;
+}
+.top-nav-right-phone-dropdown {
+    width: 250px;
+    height: 195px;
+    background: url("image/daohang--shoujijingdong02.jpg") no-repeat;
+    cursor: pointer;
+}
+
+/*关注京东二级菜单*/
+.top-nav-right-focus-dropdown {
+    width: 78px;
+    height: 97px;
+    background: url("image/daohang--guanzhujingdong.jpg") no-repeat;
+    cursor: pointer;
+}
+
+/*客服服务二级菜单*/
+.top-nav-right-service-dropdown {
+    width: 160px;
+    background-color: #fff;
+}
+.top-nav-right-service-dropdown a {
+    margin: 0 5px;
+}
+
+
+.borderChange {
+    border-color: #cccccc;
+    border-bottom-color:#ffffff;
+    background-color: #fff;
+}
+
+
+/*搜索栏一行*/
+.search-row {
+    height: 100px;
+}
+.head-logo {
+    display: inline-block;
+    float: left;
+}
+.head-logo a{
+    display: block;
+    width: 270px;
+    height: 60px;
+    background: url("image/toubu--logo.png") no-repeat left top;
+    margin: 20px 95px 30px -93px;
+}
+.head-search {
+    display: inline-block;
+    float: left;
+    width: 534px;
+    height: 32px;
+    margin: 25px 104px 0 0;
+    position: relative;
+    border: 2px solid #b61d1d;
+}
+.head-search input {
+    width: 444px;
+    padding-left: 10px;
+    height: 100%;
+    float: left;
+    border: none;
+}
+.head-search button {
+    width: 80px;
+    height: 100%;
+    font: 400 16px/24px "microsoft yahei";
+    background-color: #b61d1d;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+.head-under-search {
+    width: 500px;
+    float: left;
+}
+.head-under-search ul li a{
+    float: left;
+    font: 200 12px/20px "microsoft yahei";
+    margin: 5px;
+    color: #6a6a6a;
+}
+.head-under-search ul li a.current {
+    color: #b61d1d;
+}
+
+/*购物车 */
+.head-my-shoppingcar {
+    float: left;
+    width: 109px;
+    height: 12px;
+    padding: 11px 11px 11px 19px;
+    margin-top: 25px;
+    border: 1px solid #cccccc;
+    position: relative;
+    /*margin-right: 100px;*/
+    z-index: 5;
+}
+.head-my-shoppingcar .img {
+    width: 17px;
+    height: 13px;
+    float: left;
+    background: url("image/daohang--shoujijingdong01.png") no-repeat 0 -57px;
+}
+.head-my-shoppingcar span {
+    font-size: 12px;
+    color: #3f3f40;
+    margin-right: 7px;
+}
+.head-my-shoppingcar .number {
+    width: 15px;
+    height: 15px;
+    background-color: #b61d1d;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    border-radius: 10px 10px 10px 0;
+}
+
+/*头部导航分类*/
+.nav-top-kinds {
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #b61d1d;
+    position: relative;
+}
+.top-kinds {
+    float: left;
+    padding: 0 30px 0 230px;
+}
+.top-kinds li {
+    float: left;
+}
+.top-kinds a {
+    display: inline-block;
+    font: 500 16px/30px "microsoft yahei";
+    margin-right: 40px;
+}
+.nav-top-kinds span {
+    display: block;
+    width: 293px;
+    height: 125px;
+    background: url("image/toubu--guoqinghuodong.png") no-repeat;
+    position: absolute;
+    right: 20px;
+    top: -80px;
+    z-index: 1;
+}
+
+/*主菜单*/
+.main {
+    width: 1213px;
+    position: relative;
+    height: 656px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.all-kinds-sell-banner {
+    width: 210px;
+    height: 512px;
+    background-color: #c81623;
+    position: absolute;
+    top: -46px;
+    float: left;
+}
+.all-kinds-sell-banner .title {
+    width: 200px;
+    height: 29px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    font: 400 15px/30px "microsoft yahei";
+    color: #ffffff;
+    background-color: #b1191a;
+}
+.all-kinds-sell-banner .differ-things {
+    padding-top: 46px;
+}
+.all-kinds-sell-banner .differ-things li {
+    width: 190px;
+    height: 31px;
+    padding:0 10px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index:80;
+}
+.all-kinds-sell-banner .differ-things li a {
+    float: left;
+    font: 400 13px/31px "microsoft yahei";
+    color: #ffffff;
+    z-index:80;
+}
+.all-kinds-sell-banner .differ-things li span {
+    line-height: 31px;
+    float: right;
+    z-index:80;
+}
+/*所有品类二级菜单*/
+.all-kinds-sell-banner-dropdown {
+    width: 1000px;
+    position: absolute;
+    top: 46px;
+    left: 209px;
+    z-index: 10;
+    display: none;
+}
+.house-apply {
+    border: 1px solid #b1191a;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -1px;
+}
+.left-active-kinds {
+    width: 900px;
+    height: 10px;
+    padding: 21px;
+}
+.left-active-kinds li {
+    display: block;
+    height: 24px;
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+    background-color: #7c7171;
+}
+.left-active-kinds li span {
+    display: inline-block;
+    height: 24px;
+    font: 400 12px/24px "microsoft yahei";
+    color: #ffffff;
+    padding: 0 9px;
+}
+.left-active-kinds li .arrow {
+    background-color: #5c5251;
+}
+.left-house-apply-kinds .kinds-row {
+    width: 660px;
+    display: inline-block;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 110px;
+
+}
+.left-house-apply-kinds li ul li{
+    height: 31px;
+    display: inline-block;
+    font: 400 12px/33px "microsoft yahei";
+}
+.left-house-apply-kinds li ul li a {
+    padding: 0 6px;
+    color: #666666;
+}
+.left-house-apply-kinds li ul li span {
+    color: #e0e0e0;
+}
+.left-house-apply-kinds li ul .first-list {
+    width: 90px;
+    padding-right: 10px;
+    /*background-color: pink;*/
+    text-align: right;
+    border-bottom: 1px solid #ffffff;
+    margin-left: -104px;
+}
+.left-house-apply-kinds li ul .first-list a,
+.left-house-apply-kinds li ul .first-list span {
+    color: #333333;
+}
+.house-apply .right {
+    width: 170px;
+    position: absolute;
+    top: 19px;
+    right: 19px;
+}
+.house-apply .right li {
+    display: inline-block;
+}
+.house-apply .right .big1 {
+    margin: 10px 0 0 1px;
+}
+
+
+ /*轮播图*/
+.all-kinds-sell-lunbotu {
+    width: 730px;
+    height: 454px;
+    margin: 12px 220px;
+    float: left;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.all-kinds-sell-lunbotu .img {
+    width: 730px;
+    height: 455px;
+}
+.all-kinds-sell-lunbotu ul li {
+    display: inline-block;
+}
+.all-kinds-sell-lunbotu .img li {
+    width: 730px;
+    height: 454px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.all-kinds-sell-lunbotu span,
+.main-bottom .right span {
+    width: 30px;
+    height: 60px;
+    background-color: #333333;
+    opacity: 0.4;
+    color: #ffffff;
+    font: 400 20px/60px "宋体";
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+.arrow-prev {
+    left: 0;
+}
+.arrow-next {
+    right: 0;
+}
+.all-kinds-sell-lunbotu .num {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -60px;
+}
+.all-kinds-sell-lunbotu .num li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #333333;
+    font: 400 12px/15px "microsoft yahei";
+    text-align: center;
+    color: #ffffff;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.all-kinds-sell-lunbotu .num .current {
+    background-color: #b1191a;
+}
+
+/*main右侧菜单*/
+.main-right {
+    width: 247px;
+    height: 452px;
+    /*background-color: pink;*/
+    border: 1px solid #e8e8e7;
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.main-right .up {
+    border-bottom: 1px dashed #e8e8e7;
+    height: 32px;
+}
+.main-right .up h3 {
+    font: 400 15px/16px "microsoft yahei";
+    display: inline-block;
+    color: #666666;
+}
+.main-right .up span {
+    float: right;
+    margin-right: 17px;
+    font: 400 12px/30px "microsoft yahei";
+    cursor: pointer;
+}
+.main-right .up span a {
+    color: #666666;
+}
+.main-right .mid li {
+    font: 400 12px/12px "宋体";
+}
+.main-right .mid li h6 {
+    display: inline-block;
+}
+.main-right .mid li a {
+    color: #666666;
+}
+.main-right .bottom ul {
+    display: inline-block;
+}
+.main-right .bottom li {
+    width: 65px;
+    height: 66px;
+    display: block;
+    float: left;
+    border: 1px solid #e8e8e7;
+    border-top: none;
+    border-right: none;
+    /*background-color: orange;*/
+    margin-left: -1px;
+    margin-right: -4px;
+}
+.main-right .bottom li a {
+    height: 70px;
+    display: block;
+    cursor: pointer;
+}
+.main-right .bottom li i {
+    width: 25px;
+    height: 25px;
+    margin: 12px 0 0 18px;
+    background: url("image/main-right-icon.png") no-repeat;
+}
+.main-right .bottom li span {
+    width: 62px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+.main-right .bottom .first-row {
+    border-top: 1px solid #e8e8e7;
+}
+.main-right .down {
+    position: absolute;
+    bottom: -2px;
+}
+
+/*main底部*/
+.main-bottom {
+    width: 100%;
+    /*margin: 0 auto;*/
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+}
+.main-bottom .left {
+    width: 210px;
+    height: 151px;
+    float: left;
+    background: url("image/main-bottom/main-bottom-today.png") bottom left;
+}
+.main-bottom .right {
+    width: 1003px;
+    height: 164px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.main-bottom .right .inner {
+    position: absolute;
+    width: 500%;
+}
+.main-bottom .right .inner .img li {
+    float: left;
+    margin-right: 1px;
+}
+
+/*右侧固定栏*/
+.fixed-right-line {
+    width: 6px;
+    height: 100%;
+    background-color: #7a6e6e;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.fixed-right-box {
+    width: 31px;
+    height: 380px;
+    position: fixed;
+    right: 4px;
+    bottom: 0;
+}
+.fixed-right-box a {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: #7a6f6f;
+    margin-bottom: 1px;
+    border-radius: 2px;
+    position: relative;
+}
+.fixed-right-box .up {
+    margin-bottom: 90px;
+}
+.fixed-right-box i {
+    display: block;
+    width: 31px;
+    height: 35px;
+    background: url("image/fixed-right-toolbars.png") no-repeat;
+}
+.fixed-right-box .up .huiyuan s {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: url("image/fixed-right-toolbars.png") no-repeat -150px -150px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.fixed-right-box .up .huiyuan i {
+    background-position: -90px -174px;
+}
+.fixed-right-box .up .shoppingcar i {
+    background-position: -52px 0;
+}
+.fixed-right-box .up .myfocus i {
+    background-position: -52px -50px;
+}
+.fixed-right-box .up .mytrace i {
+    background-position: -52px -100px;
+}
+.fixed-right-box .up .mymsg i {
+    background-position: -191px -100px;
+}
+.fixed-right-box .up .jimi i {
+    background-position: -52px -150px;
+}
+.fixed-right-box .down .backtop i {
+    background-position: -52px -250px;
+}
+.fixed-right-box .down .fadeback i {
+    background-position: -52px -300px;
+}
+
+.fixed-right-box span {
+    /*height: 35px;*/
+    font:400 12px/35px "microsoft yahei";
+    padding: 0 10px;
+    border-radius: 2px;
+    background-color: #c81623;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/*左侧固定栏*/
+.fixed-left {
+    position: fixed;
+    top: 200px;
+    left: 30px;
+    display: none;
+}
+.fixed-left li a{
+    width: 35px;
+    display: block;
+    position: relative;
+    font: 400 14px/25px "microsoft yahei";
+    color: #666666;
+    height: 25px;
+    cursor: pointer;
+}
+.fixed-left li i {
+    font: 400 14px/25px "microsoft yahei";
+    height: 25px;
+    text-align: center;
+    display: block;
+}
+.fixed-left li s{
+    color: #b1191a;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    text-align: center;
+    display: none;
+}
+.fixed-left hr {
+    width: 15px;
+    margin-left: 11px;
+    border: 1px dashed #cccccc;
+}
+
+/*京东 · 品质生活*/
+.jd-goodlife {
+    height: 610px;
+}
+.jd-goodlife h3 {
+    font: 400 19px/26px "microsoft yahei";
+    color: #333333;
+}
+.jd-goodlife-box {
+    height: 540px;
+    background-color: pink;
+}
+
+/*楼层 */
+.floormsg {
+    height: 730px;
+}
+.floor-title {
+    height: 30px;
+}
+.floor-title i {
+    width: 40px;
+    height: 25px;
+    background: url("image/floor.png") no-repeat 0 -35px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.floor-title i s{
+    width: 40px;
+    height: 25px;
+    background: url("image/floor.png") no-repeat 0 0;
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+.floor-title i em {
+    font: 400 14px/30px "microsoft yahei";
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.floor-title span{
+    float: left;
+    font: 400 19px/25px "microsoft yahei";
+    color: #333333;
+
+}
+.floormsg .box {
+    height: 670px;
+    background-color: pink;
+    border-top: 1px solid #b1191a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
